@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-truststore
-Version  : 0.9.0
-Release  : 6
-URL      : https://files.pythonhosted.org/packages/46/28/e7a810115227b7c4953d9db9f1312441e708dc31d1fa6975f5a19d6bed62/truststore-0.9.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/46/28/e7a810115227b7c4953d9db9f1312441e708dc31d1fa6975f5a19d6bed62/truststore-0.9.0.tar.gz
+Version  : 0.9.1
+Release  : 7
+URL      : https://files.pythonhosted.org/packages/23/1d/1f5435cee49c7897641c38537288c0cb070c15029cde9a895c876cf60758/truststore-0.9.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/23/1d/1f5435cee49c7897641c38537288c0cb070c15029cde9a895c876cf60758/truststore-0.9.1.tar.gz
 Summary  : Verify certificates using native system trust stores
 Group    : Development/Tools
 License  : MIT
@@ -55,10 +55,10 @@ python3 components for the pypi-truststore package.
 
 
 %prep
-%setup -q -n truststore-0.9.0
-cd %{_builddir}/truststore-0.9.0
+%setup -q -n truststore-0.9.1
+cd %{_builddir}/truststore-0.9.1
 pushd ..
-cp -a truststore-0.9.0 buildavx2
+cp -a truststore-0.9.1 buildavx2
 popd
 
 %build
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1714435098
+export SOURCE_DATE_EPOCH=1715030792
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
