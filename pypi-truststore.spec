@@ -7,7 +7,7 @@
 #
 Name     : pypi-truststore
 Version  : 0.10.1
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/0f/a7/b7a43228762966a13598a404f3dfb4803ea29a906f449d8b0e73ed0bcd30/truststore-0.10.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0f/a7/b7a43228762966a13598a404f3dfb4803ea29a906f449d8b0e73ed0bcd30/truststore-0.10.1.tar.gz
 Summary  : Verify certificates using native system trust stores
